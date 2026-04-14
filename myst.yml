@@ -1,0 +1,36 @@
+version: 1
+
+project:
+  title: "EOSC CZ Summer School for Data Stewards 2026"
+  description: "JupyterLab, AI assistant, and Python as Data Steward Workbench"
+  authors:
+    - name: Matthias Täschner
+      affiliations:
+        - scadsai
+  affiliations:
+    - id: scadsai
+      name: DSC ScaDS.AI, Leipzig University
+      department: Data Science Center ScaDS.AI
+      url: https://scads.ai
+      ror: https://ror.org/01t4ttr56
+  github: https://github.com/ScaDS/eosc-ssds-2026
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  toc:
+    - file: intro.md
+      title: "Introduction"
+    - file: preparation/readme.md
+      title: "Preparation"
+    - file: session1/readme.md
+      title: "Session 1 - JupyterLab"
+    - file: session2/readme.md
+      title: "Session 2 - Python Toolbelt"
+
+site:
+  template: book-theme
+  options:
+    logo: logo-scadsai.png
+  nav:
+    - title: GitHub
+      url: https://github.com/ScaDS/eosc-ssds-2026

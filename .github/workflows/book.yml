@@ -1,0 +1,51 @@
+name: deploy-book
+
+on:
+  push:
+    branches:
+    - main
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy-book:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v6
+      with:
+        python-version: 3.11
+        cache: pip
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip show jupyter-book
+        jupyter-book --version
+
+    - name: Build the book
+      env:
+        BASE_URL: /eosc-ssds-2026
+      run: |
+        jupyter book build --html
+        ls -la _build/html
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v5
+      with:
+        path: "_build/html"
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v5

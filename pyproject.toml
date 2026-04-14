@@ -1,0 +1,23 @@
+# Guide (user-friendly):
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[project]
+name = "eosc-ssds-2026"
+version = "0.0.1"
+description = "Resources and materials for the EOSC CZ Summer School for Data Stewards 2026"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "bia-bob",
+  "ipykernel",
+  "ipywidgets",
+  "jupyter-book>=2",
+  "jupyterlab",
+  "matplotlib",
+  "notebook",
+  "numpy",
+  "pandas",
+  "python-dotenv",
+  "seaborn",
+]
+[tool.uv]
+package = false
