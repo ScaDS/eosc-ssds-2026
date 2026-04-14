@@ -1,6 +1,6 @@
 # EOSC CZ Summer School for Data Stewards 2026
 
-Resources and materials for the training sessions as part of the [EOSC CZ Summer School for Data Stewards 2026](https://www.eosc.cz/en/news-and-events/events-calendar/summer-school-for-data-stewards-2026)
+Resources and materials for the training sessions conducted by [ScaDS.AI](https://scads.ai/) as part of the [EOSC CZ Summer School for Data Stewards 2026](https://www.eosc.cz/en/news-and-events/events-calendar/summer-school-for-data-stewards-2026)
 
 > **These pages are still under heavy construction. Please check back later.**
 
