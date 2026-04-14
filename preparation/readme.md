@@ -26,7 +26,7 @@ uv --version
 > **NOTE:** If Python is already installed on your system, `uv` will detect and use it without further configuration. However, `uv` can also [install and manage Python versions](https://docs.astral.sh/uv/guides/install-python/), and [automatically installs missing Python](https://docs.astral.sh/uv/guides/install-python/#automatic-python-downloads) versions as needed.
 
 * Create a folder `eosc-ssds-2026`, e.g. on your desktop
-* Download the file [`pyproject.toml`](../pyproject.toml), save it in this folder
+* Download the file [`pyproject.toml`](https://raw.githubusercontent.com/ScaDS/eosc-ssds-2026/main/pyproject.toml), save it in this folder
 * Open the terminal and navigate to this folder, e.g.
 
 ```bash
