@@ -4,7 +4,7 @@
 
 ## Prepare your e-infra CZ account
 
-For access to Large Language Models (LLMs), we will use the [AI as a Service (AIaaS) infrastructure](https://docs.cerit.io/en/docs/ai-as-a-service/introduction) infrastructure provided by e-INFRA CZ. As a member of an educational institution in the Czech Republic with a valid MetaCentrum account, you should have access to it.
+For access to Large Language Models (LLMs), we will use the [AI as a Service (AIaaS) infrastructure](https://docs.cerit.io/en/docs/ai-as-a-service/introduction) provided by e-INFRA CZ. As a member of an educational institution in the Czech Republic with a valid MetaCentrum account, you should have access to it.
 
 * Make sure you have a valid [MetaCentrum](https://metavo.metacentrum.cz/en/about/) account ([MetaCentrum registration form](https://metavo.metacentrum.cz/en/application/form))
 * Make sure you can access the e-infra CZ [OpenWebUI platfrom](https://chat.ai.e-infra.cz/)
