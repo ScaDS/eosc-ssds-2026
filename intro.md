@@ -2,13 +2,13 @@
 
 Resources and materials for the training sessions conducted by [ScaDS.AI](https://scads.ai/) as part of the [EOSC CZ Summer School for Data Stewards 2026](https://www.eosc.cz/en/news-and-events/events-calendar/summer-school-for-data-stewards-2026)
 
-> **These pages are still under heavy construction. Please check back later.**
+> **These pages are still under construction. Please check back later.**
 
 ## Contents
 
-### Prepare your laptop
+### Preparation
 
-[Instructions](preparation/readme.md) on how to prepare your laptop for the training sessions.
+[Instructions](preparation/readme.md) on how to prepare your e-infra CZ account and your laptop for the training sessions.
 
 ### Session 1: JupyterLab + AI assistant as Data Steward Workbench
 
