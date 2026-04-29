@@ -30,6 +30,7 @@ project:
 site:
   template: book-theme
   options:
+    folders: true
     logo: logo-scadsai.png
   nav:
     - title: GitHub
