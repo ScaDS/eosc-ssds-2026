@@ -8,7 +8,7 @@ Resources and materials for the training sessions conducted by [ScaDS.AI](https:
 
 ### Preparation
 
-[Instructions](preparation/readme.md) on how to prepare your e-infra CZ account and your laptop for the training sessions.
+[Instructions](preparation/readme.md) on how to prepare your e-INFRA CZ account and your laptop for the training sessions.
 
 ### Session 1: JupyterLab + AI assistant as Data Steward Workbench
 

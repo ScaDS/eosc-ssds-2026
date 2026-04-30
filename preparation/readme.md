@@ -2,12 +2,12 @@
 
 > **If you encounter any problems with the steps described below, please reach out via [email](mailto:matthias.taeschner@uni-leipzig.de?subject=EOSC%20CZ%20Summer%20School%202026%20Preparation)**
 
-## Prepare your e-infra CZ account
+## Prepare your e-INFRA CZ account
 
 For access to Large Language Models (LLMs), we will use the [AI as a Service (AIaaS) infrastructure](https://docs.cerit.io/en/docs/ai-as-a-service/introduction) provided by e-INFRA CZ. As a member of an educational institution in the Czech Republic with a valid MetaCentrum account, you should have access to it.
 
 * Make sure you have a valid [MetaCentrum](https://metavo.metacentrum.cz/en/about/) account ([MetaCentrum registration form](https://metavo.metacentrum.cz/en/application/form))
-* Make sure you can access the e-infra CZ [OpenWebUI platfrom](https://chat.ai.e-infra.cz/)
+* Make sure you can access the e-INFRA CZ [OpenWebUI platfrom](https://chat.ai.e-infra.cz/)
 * Follow the steps explained in the AIaaS docs for [Creating an API Key](https://docs.cerit.io/en/docs/ai-as-a-service/ai-api)
 * Keep this API key (`sk-xyz...`) safe and treat it like a password (because that’s exactly what it is). It’s recommended to use a password manager.
 
