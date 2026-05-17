@@ -74,4 +74,12 @@ Ctrl + C
 ```
 
 > **If everything worked: Congratulations!**  
-> You are done and prepared for the training sessions.
+> You are technically prepared for the training sessions.
+
+### 4. [Recommended] Introduction to Python and Terminal
+
+Since the planned training sessions will use the Python programming language and the termnial / command line, it is recommended that you familiarize yourself with the basics (if you are not already familiar with them). The following interactive online resources are worth checking out:
+
+* <https://www.w3schools.com/python/default.asp>
+* <https://futurecoder.io/course/>
+* <https://www.terminaltutor.com/>
