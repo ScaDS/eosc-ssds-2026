@@ -24,8 +24,28 @@ project:
       title: "Preparation"
     - file: session1/readme.md
       title: "Session 1 - JupyterLab"
+      children:
+        - file: session1/notebooks/1_notebook-basics.ipynb
+          title: "Notebook Basics"
+        - file: session1/notebooks/2_ai-assistant-basics.ipynb
+          title: "AI Assistant Basics"
+        - file: session1/notebooks/3_ai-assistant-advanced.ipynb
+          title: "AI Assistant Advanced"
+        - file: session1/notebooks/4_ds-workflow.ipynb
+          title: "Data Steward Workflow"
     - file: session2/readme.md
       title: "Session 2 - Python Toolbelt"
+      children:
+        - file: session2/notebooks/1_toolbelt-overview.ipynb
+          title: "Toolbelt Overview"
+        - file: session2/notebooks/2_data-validation.ipynb
+          title: "Data Validation"
+        - file: session2/notebooks/3_quality-report.ipynb
+          title: "Quality Report"
+        - file: session2/notebooks/4_metadata-packaging.ipynb
+          title: "Metadata Packaging"
+        - file: session2/notebooks/5_dmp-and-deposit.ipynb
+          title: "DMP and Deposit"
 
 site:
   template: book-theme

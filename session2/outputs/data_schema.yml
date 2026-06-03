@@ -1,0 +1,59 @@
+schema_type: dataframe
+columns:
+  sample_id:
+    description: Unique sample identifier, pattern S + 4 digits (e.g. S0001).
+    dtype: str
+    unique: true
+    str_matches: ^S\d{4}$
+  species:
+    description: Penguin species (controlled vocabulary).
+    dtype: str
+    isin:
+    - Adelie
+    - Chinstrap
+    - Gentoo
+  island:
+    description: Island in the Palmer Archipelago (controlled vocabulary).
+    dtype: str
+    isin:
+    - Biscoe
+    - Dream
+    - Torgersen
+  date_collected:
+    description: Date the sample was collected, ISO 8601 (YYYY-MM-DD).
+    dtype: str
+    str_matches: ^\d{4}-\d{2}-\d{2}$
+  body_mass_g:
+    description: Body mass in grams.
+    dtype: int64
+    coerce: true
+    in_range:
+      min_value: 2500
+      max_value: 6500
+      include_min: true
+      include_max: true
+  flipper_length_mm:
+    description: Flipper length in millimetres.
+    dtype: float64
+    coerce: true
+    in_range:
+      min_value: 150
+      max_value: 250
+      include_min: true
+      include_max: true
+  sex:
+    description: Recorded sex; empty means unknown/not recorded.
+    dtype: str
+    nullable: true
+    isin:
+    - male
+    - female
+  region:
+    description: Broad geographic region (constant across the dataset).
+    dtype: str
+    equal_to: Antarctica
+  notes:
+    description: Optional free-text field-collection remarks.
+    dtype: str
+    nullable: true
+    required: false

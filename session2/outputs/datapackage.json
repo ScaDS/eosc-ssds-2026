@@ -1,0 +1,90 @@
+{
+  "name": "field-samples-2026",
+  "title": "Penguin Field Samples 2026",
+  "description": "Cleaned and validated biological field-sample measurements (species, island, date, body mass, flipper length, sex).",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Data Steward",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "penguins",
+    "biology",
+    "field samples",
+    "FAIR"
+  ],
+  "resources": [
+    {
+      "name": "field_samples_clean",
+      "type": "table",
+      "path": "field_samples_clean.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "sample_id",
+            "type": "string",
+            "description": "Unique sample identifier, pattern S + 4 digits (e.g. S0001)."
+          },
+          {
+            "name": "species",
+            "type": "string",
+            "description": "Penguin species (controlled vocabulary).",
+            "constraints": {
+              "enum": [
+                "Adelie",
+                "Chinstrap",
+                "Gentoo"
+              ]
+            }
+          },
+          {
+            "name": "island",
+            "type": "string",
+            "description": "Island in the Palmer Archipelago (controlled vocabulary)."
+          },
+          {
+            "name": "date_collected",
+            "type": "date",
+            "description": "Date the sample was collected, ISO 8601 (YYYY-MM-DD)."
+          },
+          {
+            "name": "body_mass_g",
+            "type": "integer",
+            "description": "Body mass in grams."
+          },
+          {
+            "name": "flipper_length_mm",
+            "type": "number",
+            "description": "Flipper length in millimetres."
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "description": "Recorded sex; empty means unknown/not recorded."
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Broad geographic region (constant across the dataset)."
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Optional free-text field-collection remarks."
+          }
+        ]
+      }
+    }
+  ]
+}
