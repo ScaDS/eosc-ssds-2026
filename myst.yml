@@ -5,6 +5,7 @@ project:
   description: "JupyterLab, AI assistant, and Python as Data Steward Workbench"
   authors:
     - name: Matthias Täschner
+      email: matthias.taeschner@uni-leipzig.de
       affiliations:
         - scadsai
   affiliations:
@@ -46,6 +47,8 @@ project:
           title: "Metadata Packaging"
         - file: session2/notebooks/5_dmp-and-deposit.ipynb
           title: "DMP and Deposit"
+    - file: practise/readme.md
+      title: "Practical Exercises"
 
 site:
   template: book-theme
