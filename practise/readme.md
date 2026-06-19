@@ -11,7 +11,7 @@ How-To for redoing the exercises on your own laptop after the training.
   - `session1/`
   - `session2/`
 
-### 2. Create the virtual environment (venv)
+## Create the virtual environment (venv)
 
 - Open the terminal and navigate into the unpacked folder
 
@@ -27,7 +27,7 @@ uv sync
 
 - This creates a local `.venv` folder and a `uv.lock` file inside `sessions_download/`
 
-### 3. Fill your `secrets` file
+## Fill your `secrets` file
 
 - Open the file `secrets` in a text editor and fill in your values:
   - `ENDPOINT_URL` - the LLM API endpoint URL (`https://...`)
@@ -37,7 +37,7 @@ uv sync
 
 > **NOTE:** Treat the `secrets` file like a password - never commit or share it.
 
-### 4. Start JupyterLab with your secrets
+## Start JupyterLab with your secrets
 
 - From the `sessions_download/` folder, start JupyterLab so it loads `secrets` as environment variables
 
