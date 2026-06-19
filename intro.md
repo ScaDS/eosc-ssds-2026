@@ -20,6 +20,6 @@ Slides for this session can be downloaded as pdf [here](https://raw.githubuserco
 
 Slides for this session can be downloaded as pdf [here](https://raw.githubusercontent.com/ScaDS/eosc-ssds-2026/main/session2/slides/session-2.pdf).
 
-### Notebooks
+### Practical Exercises
 
-The notebooks for the practical exercises can be downloaded [here](https://raw.githubusercontent.com/ScaDS/eosc-ssds-2026/main/preparation/sessions_download.zip).
+The how-to and the notebooks for the [practical exercises](practise/readme.md).
